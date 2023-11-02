@@ -5,7 +5,12 @@ export function Header() {
     <Flex px={16} py={5} width='100%'>
       <Image src='./images/logo.jpg' h='3rem' />
       <Spacer />
-      <Link as={Button} href='https://www.paypal.com' bg='red.500'>
+      <Link
+        as={Button}
+        href='https://www.paypal.com'
+        bg='red.500'
+        color='white'
+      >
         Donate
       </Link>
     </Flex>
