@@ -19,7 +19,7 @@ export function Volunteer() {
 					</Box>
 					<Box width={["100%", null, null, "35%"]} py={6} px={3}>
 						<Heading textAlign="center">
-							Interested in volunteer Opportunities?
+							Interested in Volunteer Opportunities?
 						</Heading>
 						<Text my={8}>
 							Currently, there around 5,000 AMBUCS members spread throughout
@@ -38,7 +38,7 @@ export function Volunteer() {
 										backgroundColor: "red.700",
 									}}
 								>
-									Volunteer Application
+									Membership Application
 								</Button>
 							</Link>
 						</Box>
