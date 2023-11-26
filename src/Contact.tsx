@@ -8,18 +8,13 @@ import {
 	ListIcon,
 	UnorderedList,
 } from "@chakra-ui/react";
-import { FaPhoneFlip, FaRegEnvelope } from "react-icons/fa6";
+import { FaPhoneFlip, FaRegEnvelope, FaRegNewspaper } from "react-icons/fa6";
 
 const resources = [
 	{
 		text: "Volunteer Application",
 		download: "./pdfs/VolApp.pdf",
 	},
-	// I believe this the same doc as request form?
-	// {
-	// 	text: "Tryke Waiver Form",
-	// 	download: "./pdfs/Parent-Amtryke-Request-Waiver-2019.pdf",
-	// },
 	{
 		text: "Request a Tryke",
 		download: "./pdfs/requestform.pdf",
@@ -36,6 +31,10 @@ const contacts = [
 		text: "redriverambucs@gmail.com",
 		icon: FaRegEnvelope,
 		link: "mailto:redriverambucs@gmail.com",
+	},
+	{
+		text: "Fax - 701-532-1896 ",
+		icon: FaRegNewspaper,
 	},
 ];
 
@@ -73,9 +72,13 @@ export function Contact() {
 								<ListItem my={3} key={text} listStyleType="none">
 									<Flex>
 										<ListIcon as={icon} mt={1} ml={8} />
-										<Link href={link}>
+										{link ? (
+											<Link href={link}>
+												<Text>{text}</Text>
+											</Link>
+										) : (
 											<Text>{text}</Text>
-										</Link>
+										)}
 									</Flex>
 								</ListItem>
 							))}
