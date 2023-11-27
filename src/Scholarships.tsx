@@ -19,7 +19,9 @@ export function Scholarships() {
 						href="https://ambucs.org/therapists/scholarship-program/"
 						target="_blank"
 					>
-						<Button my={8}>Scholarship Info</Button>
+						<Button my={8} textTransform="uppercase">
+							Scholarship Info
+						</Button>
 					</Link>
 				</Box>
 			</Container>
