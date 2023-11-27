@@ -19,6 +19,9 @@ const resources = [
 		text: "Request a Tryke",
 		download: "./pdfs/requestform.pdf",
 	},
+	{
+		text: "Donations can be mailed to Interact Therapy c/o Red River AMBUCS 3175 Sienna Dr S. Suite 103 Fargo ND 58104",
+	},
 ];
 
 const contacts = [
@@ -40,13 +43,7 @@ const contacts = [
 
 export function Contact() {
 	return (
-		<Box
-			width="100%"
-			color="white"
-			py={12}
-			bgColor="#242021"
-			textTransform="uppercase"
-		>
+		<Box width="100%" color="white" py={12} bgColor="#242021">
 			<Container maxW="container.xl">
 				<Flex width="100%">
 					<Box width="50%">
@@ -56,9 +53,13 @@ export function Contact() {
 						<UnorderedList>
 							{resources.map(({ text, download }) => (
 								<ListItem key={text} my={3}>
-									<Link href={download} target="_blank">
+									{download ? (
+										<Link href={download} target="_blank">
+											<Text>{text}</Text>
+										</Link>
+									) : (
 										<Text>{text}</Text>
-									</Link>
+									)}
 								</ListItem>
 							))}
 						</UnorderedList>
