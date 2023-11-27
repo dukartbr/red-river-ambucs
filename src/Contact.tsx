@@ -45,8 +45,8 @@ export function Contact() {
 	return (
 		<Box width="100%" color="white" py={12} bgColor="#242021">
 			<Container maxW="container.xl">
-				<Flex width="100%">
-					<Box width="50%">
+				<Flex width="100%" direction={["column", null, null, "row"]}>
+					<Box width={["100%", null, null, "50%"]} my={5} px={8}>
 						<Text textAlign="left" fontSize="xl" fontWeight="bold">
 							Resources
 						</Text>
@@ -64,15 +64,15 @@ export function Contact() {
 							))}
 						</UnorderedList>
 					</Box>
-					<Box width="50%">
-						<Text fontSize="xl" textAlign="center" fontWeight="bold">
+					<Box width={["100%", null, null, "50%"]} my={5} px={8}>
+						<Text fontSize="xl" fontWeight="bold">
 							Contact
 						</Text>
 						<UnorderedList>
 							{contacts.map(({ text, icon, link }) => (
 								<ListItem my={3} key={text} listStyleType="none">
 									<Flex>
-										<ListIcon as={icon} mt={1} ml={8} />
+										<ListIcon as={icon} mt={1} />
 										{link ? (
 											<Link href={link}>
 												<Text>{text}</Text>
