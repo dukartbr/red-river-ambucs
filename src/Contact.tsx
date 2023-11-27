@@ -12,7 +12,7 @@ import { FaPhoneFlip, FaRegEnvelope, FaRegNewspaper } from "react-icons/fa6";
 
 const resources = [
 	{
-		text: "Volunteer Application",
+		text: "Membership Application",
 		download: "./pdfs/VolApp.pdf",
 	},
 	{

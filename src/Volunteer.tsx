@@ -13,10 +13,13 @@ export function Volunteer() {
 	return (
 		<Box width="100%" bgColor="white">
 			<Container maxW="container.xl">
-				<Flex direction={["column", null, null, "row"]}>
-					<Box w={["80%", null, null, "65%"]}>
-						<Image src="./images/volunteers.jpg" />
-					</Box>
+				<Flex direction={["column", null, null, "row"]} alignContent="center">
+					<Flex w="100%" justifyContent="center">
+						<Image
+							src="./images/volunteers.jpg"
+							maxW={["400px", "400px", "400px", "600px"]}
+						/>
+					</Flex>
 					<Box width={["100%", null, null, "35%"]} py={6} px={3}>
 						<Heading textAlign="center">
 							Interested in Volunteer Opportunities?

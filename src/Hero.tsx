@@ -14,7 +14,6 @@ export function Hero() {
 	const breakpoint = useBreakpoint();
 	const isDesktop = !["sm", "base"].includes(breakpoint);
 
-	console.log("breakpoint", breakpoint);
 	return (
 		<Box width="100%" bg="red.700" color="white">
 			<Container maxW="container.xl">
@@ -31,11 +30,13 @@ export function Hero() {
 							Amtryke Adaptive Trykes for people with disabilities and
 							scholarships for theraists .
 						</Text>
-						<Link href="./pdfs/requestform.pdf" target="_blank">
-							<Button textTransform="uppercase">
-								Request An Amtryke Adaptive Tryke
-							</Button>
-						</Link>
+						<Box width="100%" textAlign="center">
+							<Link href="./pdfs/requestform.pdf" target="_blank">
+								<Button textTransform="uppercase">
+									Request An Amtryke Adaptive Tryke
+								</Button>
+							</Link>
+						</Box>
 					</Box>
 					{isDesktop && (
 						<Image

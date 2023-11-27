@@ -2,9 +2,9 @@ import { Box, Button, Container, Heading, Link, Text } from "@chakra-ui/react";
 
 export function Scholarships() {
 	return (
-		<Box bgColor="red.700" color="white">
+		<Box bgColor="red.700" color="white" width="100%">
 			<Container maxW="container.xl">
-				<Box w="100%" py={24} textAlign="center">
+				<Box py={8} textAlign="center">
 					<Heading my={8} fontWeight="bold" textTransform="uppercase">
 						Scholarships
 					</Heading>
