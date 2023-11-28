@@ -12,11 +12,11 @@ import { FaRegEnvelope, FaFacebook, FaInstagram } from "react-icons/fa6";
 const footerIcons = [
 	{
 		icon: FaFacebook,
-		link: "https://facebook.com",
+		link: "https://www.facebook.com/RedRiverAMBUCS",
 	},
 	{
 		icon: FaInstagram,
-		link: "https://instagram.com",
+		link: "https://www.instagram.com/redriverambucs",
 	},
 	{
 		icon: FaRegEnvelope,
