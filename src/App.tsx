@@ -1,6 +1,7 @@
 import { Box } from "@chakra-ui/react";
 import { Header } from "./Header";
 import { Hero } from "./Hero";
+import { VideoContainer as Video } from "./Video";
 import { Volunteer } from "./Volunteer";
 import { Scholarships } from "./Scholarships";
 import { Contact } from "./Contact";
@@ -11,6 +12,7 @@ function App() {
 		<Box w="100vw" h="100vh">
 			<Header />
 			<Hero />
+			<Video />
 			<Volunteer />
 			<Scholarships />
 			<Contact />

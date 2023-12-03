@@ -20,6 +20,10 @@ const resources = [
 		download: "./pdfs/requestform.pdf",
 	},
 	{
+		text: "Amtryke Catalog",
+		download: "./pdfs/catalog.pdf"
+	},
+	{
 		text: "Donations can be mailed to Interact Therapy c/o Red River AMBUCS 3175 Sienna Dr S. Suite 103 Fargo ND 58104",
 	},
 ];
