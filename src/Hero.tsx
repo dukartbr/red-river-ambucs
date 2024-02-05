@@ -31,7 +31,7 @@ export function Hero() {
 							scholarships for theraists .
 						</Text>
 						<Box width="100%" textAlign="center">
-							<Link href="./pdfs/requestform.pdf" target="_blank">
+							<Link href="https://ambucs.org/wp-content/uploads/2024/01/Amtryke-Order-Form-2024-1.pdf" target="_blank">
 								<Button textTransform="uppercase">
 									Request An Amtryke Adaptive Tryke
 								</Button>

@@ -16,8 +16,12 @@ const resources = [
 		download: "./pdfs/VolApp.pdf",
 	},
 	{
-		text: "Request a Tryke",
-		download: "./pdfs/requestform.pdf",
+		text: "Request a Tryke Form",
+		download: "https://ambucs.org/wp-content/uploads/2024/01/Amtryke-Order-Form-2024-1.pdf",
+	},
+	{
+		text: "Veteran's Request Form",
+		download: "https://ambucs.org/wp-content/uploads/2023/12/Full-VETERAN-Packet-editable.pdf",
 	},
 	{
 		text: "Amtryke Catalog",
