@@ -8,7 +8,7 @@ import {
   ListIcon,
   UnorderedList,
 } from "@chakra-ui/react";
-import { FaPhoneFlip, FaRegEnvelope, FaRegNewspaper } from "react-icons/fa6";
+import { FaPhoneFlip, FaRegEnvelope } from "react-icons/fa6";
 
 const resources = [
   {
