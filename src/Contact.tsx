@@ -46,10 +46,6 @@ const contacts = [
     icon: FaRegEnvelope,
     link: "mailto:redriverambucs@gmail.com",
   },
-  {
-    text: "Fax - 701-532-1896 ",
-    icon: FaRegNewspaper,
-  },
 ];
 
 export function Contact() {
