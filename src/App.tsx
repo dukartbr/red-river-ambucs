@@ -15,8 +15,8 @@ function App() {
       <Hero />
       <PromoVideo />
       <Volunteer />
-      <Scholarships />
       <Video />
+      <Scholarships />
       <Contact />
       <Footer />
     </Box>
