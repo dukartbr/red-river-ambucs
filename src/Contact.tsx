@@ -18,7 +18,7 @@ const resources = [
   {
     text: "Request a Tryke Form",
     download:
-      "https://ambucs.org/wp-content/uploads/2024/01/Amtryke-Order-Form-2024-1.pdf",
+      "https://cdn.shopify.com/s/files/1/0698/6160/5657/files/Therapist_Amtryke_Request_Forms_2025_1.pdf?v=1736961348",
   },
   {
     text: "Veteran's Request Form",
