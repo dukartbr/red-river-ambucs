@@ -32,7 +32,7 @@ export function Hero() {
             </Text>
             <Box width="100%" textAlign="center">
               <Link
-                href="https://ambucs.org/wp-content/uploads/2024/01/Amtryke-Order-Form-2024-1.pdf"
+                href="https://cdn.shopify.com/s/files/1/0698/6160/5657/files/Therapist_Amtryke_Request_Forms_2025_1.pdf?v=1736961348"
                 target="_blank"
               >
                 <Button textTransform="uppercase">
