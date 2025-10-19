@@ -27,7 +27,8 @@ const resources = [
   },
   {
     text: "Amtryke Catalog",
-    download: "./pdfs/catalog.pdf",
+    download:
+      "https://ambucs.org/wp-content/uploads/2023/12/Amtryke-catalogue_2023.pdf",
   },
   {
     text: "Donations: Please email redriverambucs@gmail.com for address",
