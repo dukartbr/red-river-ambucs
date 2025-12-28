@@ -28,7 +28,7 @@ const resources = [
   {
     text: "Amtryke Catalog",
     download:
-      "https://ambucs.org/wp-content/uploads/2023/12/Amtryke-catalogue_2023.pdf",
+      "https://amtryke.org",
   },
   {
     text: "Donations: Please email redriverambucs@gmail.com for address",
